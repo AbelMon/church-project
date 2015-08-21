@@ -1,0 +1,49 @@
+body {
+    background: url(../img/main-image.jpg);
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+nav {
+    padding: 1%;
+    margin-top: 1em;
+}
+
+li {
+    list-style:none;
+}
+
+.active {
+    color: white;
+    background-color: rgba(47,47,47,0.8);
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.titulo {
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media
+only screen and (min-device-width : 320px) and (max-device-width : 480px),
+only screen and (min-device-width : 768px) and (max-device-width : 1024px),
+only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+    body {
+        background-image: url(../img/main-image.jpg);
+        -moz-background-size: auto;
+        -webkit-background-size: auto;
+        background-size: auto;
+    }
+}
+
+
